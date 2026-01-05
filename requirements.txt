@@ -1,27 +1,32 @@
-# Web Scraping
+# Core Dependencies
 requests==2.31.0
-beautifulsoup4==4.12.3
-selenium==4.16.0
-lxml==5.1.0
-fake-useragent==1.4.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
 
 # Data Processing
-pandas==2.2.0
-numpy==1.26.3
+pandas==2.0.3
+numpy==1.24.3
 
-# Data Visualization
-matplotlib==3.8.2
-seaborn==0.13.1
-plotly==5.18.0
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
 
 # Utilities
-python-dotenv==1.0.0
-tqdm==4.66.1
+python-dateutil==2.8.2
+pytz==2023.3
 
-# Rate Limiting & Proxies
-requests-ratelimiter==0.4.2
-cloudscraper==1.2.71
+# Optional: For enhanced scraping capabilities
+# selenium==4.12.0
+# scrapy==2.11.0
 
-# Testing
-pytest==7.4.4
-pytest-cov==4.1.0
+# Optional: For database support
+# sqlalchemy==2.0.20
+# pymongo==4.5.0
+
+# Optional: For API development
+# fastapi==0.103.1
+# uvicorn==0.23.2
+
+# Development Tools
+ipython==8.14.0
+jupyter==1.0.0
