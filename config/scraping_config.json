@@ -1,0 +1,28 @@
+{
+    "target_categories": [
+        "industrial-machinery",
+        "electronic-components",
+        "textile-raw-materials",
+        "chemical-supplies",
+        "packaging-materials"
+    ],
+    "scraping_settings": {
+        "max_products_per_category": 100,
+        "request_delay_min": 2,
+        "request_delay_max": 5,
+        "max_retries": 3,
+        "timeout": 30,
+        "use_proxies": false
+    },
+    "data_fields": [
+        "product_name",
+        "price",
+        "supplier_name",
+        "supplier_location",
+        "product_category",
+        "description",
+        "specifications",
+        "contact_info",
+        "url"
+    ]
+}
